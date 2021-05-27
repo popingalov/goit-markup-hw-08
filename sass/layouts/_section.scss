@@ -1,7 +1,12 @@
 .section-one {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   justify-items: center;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    justify-items: center;
+  }
 }
 .section-services {
   padding-top: 94px;
@@ -15,6 +20,24 @@
   padding-bottom: 94px;
 }
 
-.footer .section {
+.services {
+  padding-bottom: 94px;
+}
+.hero-section {
   display: flex;
+  padding-bottom: 118px;
+  padding-top: 118px;
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 200px;
+    padding-top: 200px;
+  }
+}
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--background-footer);
+}
+.my-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }

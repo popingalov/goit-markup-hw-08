@@ -13,8 +13,7 @@
   margin-bottom: 10px;
   display: inline-block;
 }
-.footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: var(--background-footer);
+
+.footer .section {
+  display: flex;
 }
