@@ -124,7 +124,7 @@ label span {
 }
 
 .section {
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -289,21 +289,6 @@ label span {
   font-weight: 700;
   margin-bottom: 20px;
   color: var(--hero-cl);
-}
-
-.hero-section__h1 {
-  font-family: var(--hero-font);
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.5;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--hero-cl);
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 700px;
 }
 
 .soc-list {
@@ -612,12 +597,6 @@ label span {
   padding-bottom: 94px;
 }
 
-.hero-section {
-  display: flex;
-  padding-bottom: 200px;
-  padding-top: 200px;
-}
-
 .footer .section {
   display: flex;
 }
@@ -697,6 +676,29 @@ label span {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.hero-section__h1 {
+  font-family: var(--hero-font);
+  font-weight: 900;
+  /* font-size: 44px;
+  line-height: 1.5; */
+  font-size: 26px;
+  line-height: 1.61;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--hero-cl);
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+}
+
+.hero-section {
+  display: flex;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 .works {
