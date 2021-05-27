@@ -1,0 +1,11 @@
+.header {
+  border-bottom: 1px solid #ececec;
+  background-color: var(--background-header);
+}
+.header__section--position {
+  justify-content: flex-end;
+  display: flex;
+  align-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}

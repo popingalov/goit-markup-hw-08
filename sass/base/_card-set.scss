@@ -1,0 +1,10 @@
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-set:last-child {
+  margin-right: -30px;
+}
+.card-set__element:not(:first-child) {
+  margin-left: 30px;
+}
