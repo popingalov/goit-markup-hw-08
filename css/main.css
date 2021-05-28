@@ -782,7 +782,8 @@ label span {
 @media screen and (max-width: 1199.99px) {
   .footer-form__input {
     max-width: 450px;
-    width: 100vw;
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
 
@@ -812,6 +813,10 @@ label span {
 
 .footer-adres__link--color {
   color: var(--background-header);
+}
+
+.footer--100vh {
+  width: 100%;
 }
 
 .hero-section--bg {
