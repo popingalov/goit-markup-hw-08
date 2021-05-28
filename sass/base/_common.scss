@@ -24,8 +24,11 @@ p {
 }
 img {
   display: block;
-  max-width: 100%;
+  max-width: 450px;
   height: auto;
+  @media screen and (min-width: 1200px) {
+    max-width: 100%;
+  }
 }
 a {
   text-decoration: none;

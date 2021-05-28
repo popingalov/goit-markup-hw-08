@@ -45,8 +45,14 @@ p {
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 450px;
   height: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  img {
+    max-width: 100%;
+  }
 }
 
 a {
@@ -108,19 +114,6 @@ label span {
 .position {
   overflow: hidden;
   position: relative;
-}
-
-.card-set {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.card-set:last-child {
-  margin-right: -30px;
-}
-
-.card-set__element:not(:first-child) {
-  margin-left: 30px;
 }
 
 .section {
@@ -550,10 +543,30 @@ label span {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   text-align: center;
   background-color: #fff;
-  max-width: 270px;
+  max-width: 450px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 30px * var(--team-foto)) / var(--team-foto));
+}
+
+@media screen and (min-width: 1200px) {
+  .card-set__element {
+    max-width: 270px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1119.98px) {
+  .card-set__element {
+    max-width: 354px;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 1119.98px) {
+  .card-set__element {
+    margin-bottom: 30px;
+  }
 }
 
 .card-set__filling {
@@ -562,6 +575,27 @@ label span {
   flex-direction: column;
   display: flex;
   border: 1px solid #eeeeee;
+}
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .card-set:last-child {
+    margin-right: -30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card-set:last-child {
+    margin-right: -30px;
+  }
+  .card-set__element:not(:first-child) {
+    margin-left: 30px;
+  }
 }
 
 .services-card-set {
@@ -608,8 +642,15 @@ label span {
 
 .section-team {
   background: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .services {
