@@ -53,6 +53,9 @@
   }
   @media screen and (max-width: 1199.99px) {
     flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -98,4 +101,11 @@
 }
 .footer--100vh {
   width: 100%;
+}
+.footer--container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
 }
