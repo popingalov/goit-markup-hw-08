@@ -616,6 +616,12 @@ label span {
   padding-bottom: 94px;
 }
 
+@media screen and (max-width: 1199.98px) {
+  .services {
+    display: none;
+  }
+}
+
 .hero-section {
   display: flex;
   padding-bottom: 118px;
@@ -709,7 +715,7 @@ label span {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/mobile/hero-fon.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/mobile/hero-fon.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -717,13 +723,13 @@ label span {
 
 @media screen and (min-width: 1200px) {
   .hero-section--bg {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero-fon.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-fon.jpg");
   }
 }
 
 @media screen and (max-width: 1199.98px) and (min-width: 768px) {
   .hero-section--bg {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/table/hero-fon.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/table/hero-fon.jpg");
   }
 }
 
@@ -768,7 +774,7 @@ label span {
   line-height: 1.87;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199.98px) {
   .dignity {
     margin-bottom: -30px;
   }
@@ -794,7 +800,7 @@ label span {
   flex-basis: calc((100% - 30px * 1) / 1);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199.98px) {
   .dignity__item {
     margin-bottom: 30px;
   }
@@ -851,7 +857,7 @@ label span {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .dignity__svg {
     width: 354px;
   }

@@ -1,5 +1,5 @@
 .dignity {
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1199.98px) {
     margin-bottom: -30px;
   }
 
@@ -17,7 +17,7 @@
 
 .dignity__item {
   flex-basis: calc((100% - 30px * 1) / 1);
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1199.98px) {
     margin-bottom: 30px;
   }
   @media screen and (min-width: 1200px) {
@@ -58,7 +58,7 @@
   @media screen and (min-width: 1200px) {
     width: 270px;
   }
-  @media screen and (min-width: 768px) and (max-width: 1200px) {
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
     width: 354px;
   }
 }
