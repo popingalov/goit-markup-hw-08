@@ -24,3 +24,15 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
+@media screen and (max-width: 1199.98px) {
+  .header__addres:nth-child(2) {
+    margin-top: 10px;
+  }
+}
+
+.header__contacts {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
