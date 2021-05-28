@@ -10,7 +10,9 @@
   color: var(--hero-cl);
 }
 .logo {
-  margin-right: 93px;
+  @media screen and (min-width: 1199.99px) {
+    margin-right: 93px;
+  }
 }
 .logo__web {
   font-family: var(--logo-font);
