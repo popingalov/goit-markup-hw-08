@@ -2,11 +2,26 @@
   display: inline-flex;
   margin-right: -30px;
   flex-wrap: wrap;
+  flex-basis: calc((100% - 30px * 1) / 1);
+  @media screen and (max-width: 1199.98px) {
+    margin-bottom: -30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - 30px * var(--worhy-items)) / var(--worhy-items));
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    flex-basis: calc((100% - 30px * 2) / 2);
+  }
+  justify-content: center;
 }
 .clients__item {
   width: 170px;
   height: 92px;
   margin-right: 30px;
+  @media screen and (max-width: 1199.98px) {
+    margin-bottom: 30px;
+  }
 }
 .clients__link {
   transition-property: border, fill, color;
