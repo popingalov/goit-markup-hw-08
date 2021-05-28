@@ -99,20 +99,3 @@
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-form {
-  display: flex;
-}
-
-.footer-form__input {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  box-sizing: border-box;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
-  background: #2f303a;
-  color: rgba(255, 255, 255, 0.6);
-  display: inline-block;
-  width: 358px;
-  height: 50px;
-  margin-right: 12px;
-  padding-left: 16px;
-}

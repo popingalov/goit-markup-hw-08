@@ -29,19 +29,3 @@
   background-color: var(--a-focus-cl);
   color: var(--hero-cl);
 }
-.footer-soc {
-  margin-right: 93px;
-}
-
-.footer-soc-list__link:focus,
-.footer-soc-list__link:hover {
-  background-color: var(--a-focus-cl);
-  color: var(--hero-cl);
-}
-.footer-soc-list__item {
-  width: 44px;
-}
-
-.footer-soc-list__item:not(:last-child) {
-  margin-right: 10px;
-}
