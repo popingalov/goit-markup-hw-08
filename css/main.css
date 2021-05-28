@@ -55,6 +55,12 @@ img {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  img {
+    max-width: 354px;
+  }
+}
+
 a {
   text-decoration: none;
 }
@@ -155,10 +161,6 @@ label span {
   color: var(--hero-cl);
 }
 
-.logo {
-  margin-right: 88px;
-}
-
 @media screen and (min-width: 1199.99px) {
   .logo {
     margin-right: 93px;
@@ -184,10 +186,22 @@ label span {
 }
 
 .services-button {
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   display: flex;
   margin-bottom: 50px;
+}
+
+@media screen and (min-width: 767.98px) {
+  .services-button {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1199.98px) {
+  .services-button__btn {
+    margin-bottom: 15px;
+  }
 }
 
 .services-button__btn--focus:focus,
@@ -545,8 +559,20 @@ label span {
 
 .services-card-set {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .services-card-set {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .services-card-set {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .services-card-set__item:hover .p-block {
