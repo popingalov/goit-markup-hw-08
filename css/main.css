@@ -589,6 +589,7 @@ label span {
 }
 
 .services-card-set {
+  max-width: 100vw;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 30px;
