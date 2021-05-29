@@ -26,7 +26,8 @@
         "../sass/layouts/_dignity.scss",
         "../sass/layouts/_services.scss",
         "../sass/layouts/_modal.scss",
-        "../sass/layouts/_clients.scss"
+        "../sass/layouts/_clients.scss",
+        "../sass/layouts/_menu.scss"
     ],
     "names": [],
     "file": "main.css"
