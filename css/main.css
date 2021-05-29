@@ -33,6 +33,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  /* outline: 1px solid red; */
 }
 
 h1,
@@ -623,6 +624,12 @@ label span {
   display: block;
 }
 
+@media screen and (max-width: 767.98px) {
+  .services-card-set__item img {
+    max-width: 90vw;
+  }
+}
+
 .nav {
   align-items: center;
   display: flex;
@@ -1101,6 +1108,7 @@ label span {
 }
 
 .services-hp {
+  max-width: 90vw;
   border: 1px solid #eeeeee;
   padding-left: 24px;
   padding-top: 20px;
@@ -1193,6 +1201,7 @@ label span {
 
 .clients {
   display: inline-flex;
+  max-width: 100%;
   flex-wrap: wrap;
   flex-basis: calc((100% - 30px * 1) / 1);
   justify-content: center;
@@ -1233,6 +1242,18 @@ label span {
 @media screen and (min-width: 768px) {
   .clients__item {
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1199.98px) {
+  .clients__item {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 429px) {
+  .clients__item {
+    margin-right: 0px;
   }
 }
 
