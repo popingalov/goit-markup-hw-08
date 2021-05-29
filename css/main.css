@@ -161,10 +161,6 @@ label span {
   color: var(--hero-cl);
 }
 
-.logo {
-  margin-right: auto;
-}
-
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .logo {
     margin-right: 88px;
@@ -188,6 +184,12 @@ label span {
 
 .footer .logo {
   padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .footer .logo {
+    margin-right: 0px;
+  }
 }
 
 .logo--position {
@@ -304,6 +306,23 @@ label span {
   margin-bottom: 20px;
   color: var(--hero-cl);
   text-align: center;
+}
+
+.footer__title--position {
+  display: block;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-top: 10px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer__title--position {
+    text-align: center;
+  }
 }
 
 .soc-list {
@@ -1264,6 +1283,17 @@ label span {
   background-color: #fff;
 }
 
+.menu-burger {
+  background-color: white;
+  fill: black;
+  margin-top: 10px;
+}
+
+.menu-burger:hover,
+.menu-burger:focus {
+  fill: #2196f3;
+}
+
 .mobile-menu {
   padding-bottom: 48px;
   position: absolute;
@@ -1342,5 +1372,11 @@ label span {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .header__class--dis-burger {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

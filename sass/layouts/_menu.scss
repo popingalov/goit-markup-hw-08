@@ -1,5 +1,13 @@
 .menu-burger {
+  background-color: white;
+  fill: black;
+  margin-top: 10px;
 }
+.menu-burger:hover,
+.menu-burger:focus {
+  fill: #2196f3;
+}
+
 .mobile-menu {
   padding-bottom: 48px;
   position: absolute;
@@ -66,4 +74,11 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+.header__class--dis-burger {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+.formn__icon--pos {
 }
