@@ -1,2 +1,33 @@
 .menu-burger {
 }
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  padding-left: 40px;
+  padding-top: 48px;
+}
+
+.nav__menu--mobile-menu {
+  position: absolute;
+  flex-direction: column;
+  top: 30;
+  left: 30;
+}
+.nav__link--mobile-menu {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.175;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.nav__list--mobile--mobile-menu:not(:last-child) {
+  margin-bottom: 30px;
+}
+.exit--mobile-menu {
+  border-color: white;
+}
