@@ -626,7 +626,7 @@ label span {
 
 @media screen and (max-width: 767.98px) {
   .services-card-set__item img {
-    max-width: 90vw;
+    max-width: 91vw;
   }
 }
 
@@ -1108,7 +1108,7 @@ label span {
 }
 
 .services-hp {
-  max-width: 90vw;
+  max-width: 91vw;
   border: 1px solid #eeeeee;
   padding-left: 24px;
   padding-top: 20px;
