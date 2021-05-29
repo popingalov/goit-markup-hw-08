@@ -161,6 +161,16 @@ label span {
   color: var(--hero-cl);
 }
 
+.logo {
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .logo {
+    margin-right: 88px;
+  }
+}
+
 @media screen and (min-width: 1199.99px) {
   .logo {
     margin-right: 93px;
@@ -741,6 +751,12 @@ label span {
 @media screen and (min-width: 1200px) {
   .header__contacts {
     display: flex;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .header__class--dis {
+    display: none;
   }
 }
 
