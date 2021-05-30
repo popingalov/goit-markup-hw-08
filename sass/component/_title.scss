@@ -20,7 +20,9 @@
   font-weight: 700;
   margin-bottom: 20px;
   color: var(--hero-cl);
-  text-align: center;
+  @media screen and (max-width: 1200px) {
+    text-align: center;
+  }
 }
 
 .footer__title--position {

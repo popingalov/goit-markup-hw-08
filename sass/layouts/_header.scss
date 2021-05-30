@@ -3,11 +3,13 @@
   background-color: var(--background-header);
 }
 .header__section--position {
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   display: flex;
-  align-content: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  /* align-content: center; */
+  @media screen and (min-width: 768px) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 }
 .header__addres {
   transition-property: background-color, color;
