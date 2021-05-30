@@ -196,14 +196,28 @@
                 <h2 class="h2-title">Чем мы занимаемся</h2>
 
                 <ul class="services__list">
-                    <li class="services__foto"><img src="./images/work1.jpg" width="370" alt="Чёт печатает">
+                    <li class="services__foto">
+                        <picture>
+                            <source srcset="./images/work/img1_@1x.jpg 1x, ./images/work/img1_@2x.jpg 2x"
+                                type="image/jpeg" />
+                            <img src="./images/img1.jpg" alt="Планшет с клавиатурой" />
+                        </picture>
                         <div class="services__p">Десктопные приложения</div>
                     </li>
-                    <li class="services__foto"><img src="./images/work2.jpg" width="370"
-                            alt="Выбираем фон для смартфона">
+                    <li class="services__foto">
+                        <picture>
+                            <source srcset="./images/work/img2_@1x.jpg 1x, ./images/work/img2_@2x.jpg 2x"
+                                type="image/jpeg" />
+                            <img src="./images/img2.jpg" alt="Телефон и ноутбук" />
+                        </picture>
                         <div class="services__p">Мобильные приложения</div>
                     </li>
-                    <li class="services__foto"><img src="./images/work3.jpg" width="370" alt="Выбирает цвет карандаша">
+                    <li class="services__foto">
+                        <picture>
+                            <source srcset="./images/work/img3_@1x.jpg 1x, ./images/work/img3_@2x.jpg 2x"
+                                type="image/jpeg" />
+                            <img src="./images/img3.jpg" alt="Планшет" />
+                        </picture>
                         <div class="services__p">Дизайнерские решения</div>
                     </li>
                 </ul>
@@ -215,7 +229,18 @@
 
                 <ul class="card-set">
                     <li class="card-set__element">
-                        <img src="./images/team/igor.jpg" width="450" alt="Product Designer">
+                        <picture>
+                            <source
+                                srcset="./images/team/desktop/img1_desktop@1x.jpg 1x, ./images/team/desktop/img1_desktop@2x.jpg 2x"
+                                media="(min-width: 1200px)" type="image/jpeg" />
+                            <source
+                                srcset="./images/team/tablet/img1_tablet@1x.jpg 1x, ./images/team/tablet/img1_tablet@2x.jpg 2x"
+                                media="(min-width: 768px)" type="image/jpeg" />
+                            <source
+                                srcset="./images/team/mobile/img1_mobile@1x.jpg 1x, ./images/team/mobile/img1_mobile@2x.jpg 2x"
+                                media="(max-width: 767.98px)" type="image/jpeg" />
+                            <img class="team__image" src="./images/photo1.jpg" alt="Игорь Демьяненко" />
+                        </picture>
                         <div class="card-set__filling">
                             <h3 class="card-set__name">Игорь Демьяненко</h3>
                             <p lang="en" class="card-set__p">Product Designer</p>
@@ -249,7 +274,18 @@
                         </div>
                     </li>
                     <li class="card-set__element">
-                        <img src="./images/team/ol6ga.jpg" width="450" alt="Frontend Developer">
+                        <picture>
+                            <source
+                                srcset="./images/team/desktop/img2_desktop@1x.jpg 1x, ./images/team/desktop/img2_desktop@2x.jpg 2x"
+                                media="(min-width: 1200px)" type="image/jpeg" />
+                            <source
+                                srcset="./images/team/tablet/img2_tablet@1x.jpg 1x, ./images/team/tablet/img2_tablet@2x.jpg 2x"
+                                media="(min-width: 768px)" type="image/jpeg" />
+                            <source
+                                srcset="./images/team/mobile/img2_mobile@1x.jpg 1x, ./images/team/mobile/img2_mobile@2x.jpg 2x"
+                                media="(max-width: 767.98px)" type="image/jpeg" />
+                            <img class="team__image" src="./images/photo2.jpg" alt="Ольга Репина" />
+                        </picture>
                         <div class="card-set__filling">
                             <h3 class="card-set__name">Ольга Репина</h3>
                             <p lang="en" class="card-set__p">Frontend Developer</p>
@@ -283,7 +319,18 @@
 
                     </li>
                     <li class="card-set__element">
-                        <img src="./images/team/nikolay.jpg" width="450" alt="Marketing">
+                        <picture>
+                            <source
+                                srcset="./images/team/desktop/img3_desktop@1x.jpg 1x, ./images/team/desktop/img3_desktop@2x.jpg 2x"
+                                media="(min-width: 1200px)" type="image/jpeg" />
+                            <source
+                                srcset="./images/team/tablet/img3_tablet@1x.jpg 1x, ./images/team/tablet/img3_tablet@2x.jpg 2x"
+                                media="(min-width: 768px)" type="image/jpeg" />
+                            <source
+                                srcset="./images/team/mobile/img3_mobile@1x.jpg 1x, ./images/team/mobile/img3_mobile@2x.jpg 2x"
+                                media="(max-width: 767.98px)" type="image/jpeg" />
+                            <img class="team__image" src="./images/photo3.jpg" alt="Николай Тарасов" />
+                        </picture>
                         <div class="card-set__filling">
                             <h3 class="card-set__name">Николай Тарасов</h3>
                             <p lang="en" class="card-set__p">Marketing</p>
@@ -316,7 +363,18 @@
                         </div>
                     </li>
                     <li class="card-set__element">
-                        <img src="./images/team/mixaH9.jpg" width="450" alt="UI Designer">
+                        <picture>
+                            <source
+                                srcset="./images/team/desktop/img4_desktop@1x.jpg 1x, ./images/team/desktop/img4_desktop@2x.jpg 2x"
+                                media="(min-width: 1200px)" type="image/jpeg" />
+                            <source
+                                srcset="./images/team/tablet/img4_tablet@1x.jpg 1x, ./images/team/tablet/img4_tablet@2x.jpg 2x"
+                                media="(min-width: 768px)" type="image/jpeg" />
+                            <source
+                                srcset="./images/team/mobile/img4_mobile@1x.jpg 1x, ./images/team/mobile/img4_mobile@2x.jpg 2x"
+                                media="(max-width: 767.98px)" type="image/jpeg" />
+                            <img class="team__image" src="./images/photo4.jpg" alt="Михаил Ермаков" />
+                        </picture>
                         <div class="card-set__filling">
                             <h3 class="card-set__name">Михаил Ермаков</h3>
                             <p lang="en" class="card-set__p">UI Designer</p>

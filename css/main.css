@@ -637,6 +637,12 @@ label span {
   display: block;
 }
 
+@media screen and (min-width: 1200px) {
+  .services-card-set__link {
+    max-width: 370px;
+  }
+}
+
 @media screen and (max-width: 767.98px) {
   .services-card-set__item img {
     max-width: 91vw;
@@ -1139,6 +1145,12 @@ label span {
   padding-left: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .services-hp {
+    max-width: 370px;
+  }
 }
 
 .exit {
