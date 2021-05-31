@@ -976,7 +976,7 @@ label span {
 
 @media screen and (min-width: 1200px) {
   .hero-section--bg {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/mobile/hero_mobile@1x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/desktop/hero_desktop@1x.jpg");
   }
 }
 
