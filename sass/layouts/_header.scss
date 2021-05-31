@@ -22,9 +22,12 @@
   text-decoration: none;
   font-weight: 500;
   font-family: var(--hero-font);
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 1199.98px) {

@@ -373,7 +373,7 @@ label span {
 
 .form-modal {
   position: relative;
-  max-width: 528px;
+  max-width: 450px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -382,6 +382,12 @@ label span {
   padding: 40px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+}
+
+@media screen and (min-width: 1200px) {
+  .form-modal {
+    max-width: 528px;
+  }
 }
 
 .form {
@@ -594,9 +600,6 @@ label span {
 }
 
 @media screen and (min-width: 1200px) {
-  .card-set:last-child {
-    margin-right: -30px;
-  }
   .card-set__element:not(:first-child) {
     margin-left: 30px;
   }
@@ -798,9 +801,15 @@ label span {
   text-decoration: none;
   font-weight: 500;
   font-family: var(--hero-font);
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+@media screen and (min-width: 1200px) {
+  .header__addres {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 1199.98px) {
@@ -1238,73 +1247,75 @@ label span {
 }
 
 .clients {
-  display: inline-flex;
-  max-width: 100%;
-  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-gap: 30px;
+  /* flex-wrap: wrap;
   flex-basis: calc((100% - 30px * 1) / 1);
-  justify-content: center;
+  @media screen and (max-width: 1199.98px) {
+    margin-bottom: -30px;
+    margin-right: -30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - 30px * var(--worhy-items)) / var(--worhy-items));
+    margin-right: -30px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    flex-basis: calc((100% - 30px * 3) / 3);
+  }
+  justify-content: center; */
 }
 
 @media screen and (min-width: 1200px) {
   .clients {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     display: grid;
-  }
-}
-
-@media screen and (max-width: 1199.98px) {
-  .clients {
-    margin-bottom: -30px;
-    margin-right: -30px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .clients {
-    flex-basis: calc((100% - 30px * var(--worhy-items)) / var(--worhy-items));
-    margin-right: -30px;
+    grid-gap: 30px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .clients {
-    flex-basis: calc((100% - 30px * 2) / 2);
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-gap: 30px;
   }
 }
 
 .clients__item {
-  width: 170px;
+  max-width: 210px;
   height: 92px;
-  margin-right: 30px;
+  /* margin-right: 30px; */
+  /* @media screen and (max-width: 768px) {
+    flex-basis: calc((100% - 30px * 2) / 2);
+  } */
 }
 
 @media screen and (min-width: 1200px) {
   .clients__item {
+    width: 170px;
     margin-right: 0px;
   }
 }
 
 @media screen and (max-width: 1199.98px) {
   .clients__item {
-    margin-bottom: 30px;
+    /*  margin-bottom: 30px; */
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
   .clients__item {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    flex-basis: calc((100% - 30px * 3) / 3);
+    width: 226px;
   }
 }
 
 @media screen and (max-width: 1199.98px) {
   .clients__item {
-    margin-bottom: 30px;
-  }
-}
-
-@media screen and (max-width: 429px) {
-  .clients__item {
-    margin-right: 0px;
+    /* margin-bottom: 30px; */
   }
 }
 
@@ -1320,6 +1331,18 @@ label span {
   width: 100%;
   height: 100%;
   fill: #afb1b8;
+}
+
+@media screen and (min-width: 1200px) {
+  .clients__link {
+    width: 170px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .clients__link {
+    width: 226px;
+  }
 }
 
 .clients__link:hover,
@@ -1398,6 +1421,11 @@ label span {
   height: 100%;
   padding-top: 48px;
   min-height: 450px;
+  padding-left: 40px;
+}
+
+.mobile-menu .header__addres {
+  margin-left: 0px;
 }
 
 .exit--mobile-menu {
@@ -1436,10 +1464,16 @@ label span {
 
 .header__addres--mobile-menu {
   font-weight: 500;
-  font-size: 30px;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+}
+
+.header__addres--mobile-menu-mob {
+  font-weight: 500;
+  font-size: 34px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  margin-left: 0px;
 }
 
 .mobile-menu__addres {
