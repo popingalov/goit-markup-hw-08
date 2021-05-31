@@ -634,6 +634,7 @@ label span {
 }
 
 .services-card-set__link {
+  max-width: 450px;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -646,9 +647,9 @@ label span {
   }
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .services-card-set__item img {
-    max-width: 91vw;
+    max-width: 454px;
   }
 }
 
@@ -1149,7 +1150,7 @@ label span {
 }
 
 .services-hp {
-  max-width: 91vw;
+  max-width: 100%;
   border: 1px solid #eeeeee;
   padding-left: 24px;
   padding-top: 20px;
